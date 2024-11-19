@@ -1,0 +1,176 @@
+body{
+    background-color: rgb(255, 226, 255);
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+nav.main {
+   background-color: forestgreen;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;  
+    
+}
+nav a {
+    color: #fff;
+    padding: 10px 20px;
+}
+nav a:hover {
+    background-color: #555;
+}
+
+img.Aws{
+    height: 500px;
+    width: 400px;
+    border-radius: 80%;
+    
+    
+}
+
+span{
+    display: flex;
+    align-items: center;
+    padding-left: 300px;
+}
+img.arrow{
+    position: relative;
+    height: 500px;
+    width: 400px;
+    border-radius: 80%;
+    margin: 50px;
+    animation-name: fade;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+@keyframes fade
+{
+   0% {opacity:0%;}
+   100% {opacity:100%;}
+   
+}
+h2.intro{
+    display: inline-block;
+    text-align: center;
+        font-size: 40pt;
+        padding-top: 300px;
+        padding-bottom: 200px;
+        color: blue;
+        position: relative;
+        
+    }
+
+    h2.places{
+        text-align: center;
+        position: relative;
+        font-size: 40pt;
+        padding-top: 300px;
+        padding-bottom: 200px;
+        color: blue;}
+
+.Jordan{
+    height: 800px;
+    width: 800px;
+    margin-left: 200px;
+    position: relative;
+    animation: move 5s;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}}
+
+
+.Iraq{ position: relative;
+    height: 800px;
+    width: 800px;
+    margin-left: 200px;
+    animation: move 5s;
+    animation-iteration-count: infinite;
+    animation-duration: 5s }
+
+
+@keyframes move {
+    0%{left: 0px;}
+    50%{left:50%}
+    100%{left: -50%;}
+}
+
+.Malaysia{
+    position: relative;
+    height: 800px;
+    width: 800px;
+    margin-left: 200px;
+    animation: move 5s;
+    animation-iteration-count: infinite;
+    animation-duration: 5s }
+
+    @keyframes move {
+        0%{left: 0px;}
+        50%{left:50%}
+        100%{left:0%}
+    }
+
+h3{
+    text-align: center;
+    font-size: 60pt;
+    color: green;
+}
+
+    
+
+
+section{
+    width: 1000px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.favorite{
+        text-align: center;
+        font-size: 40pt;
+        padding-top: 300px;
+        color: blue;
+}
+table{
+    width: 100%;
+    height: 100%;
+    border: 3px solid black;
+    justify-content: space-evenly;
+}
+
+th{
+    font-weight: bold;
+background-color: aqua;
+}
+
+td{
+    font-weight: lighter;
+    border: 2px solid black;
+    text-align: center;
+    
+
+}
+
+footer {
+    background-color: forestgreen;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;}
+
+    button{
+        background-color: orange;
+        height: 50px;
+        width: 100px;
+        border-radius: 20%;
+        position-anchor: right;
+
+        
+        
+    }
